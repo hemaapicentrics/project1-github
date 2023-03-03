@@ -29,6 +29,22 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				    <cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>4.4.0</muleVersion>
+				      <username>hemalatha-feb16</username>
+				      <password>Hemala03</password>
+				      <applicationName>cicd21</applicationName>
+				      <environment>Sandbox</environment>
+				      <workers>1</workers>
+				      <workerType>MICRO</workerType>
+				      <objectStoreV2>true</objectStoreV2>
+				      <properties>
+				        <key>value</key>
+				      </properties>
+				    </cloudHubDeployment>
+				  </configuration>
 			</plugin>
 		</plugins>
 	</build>
