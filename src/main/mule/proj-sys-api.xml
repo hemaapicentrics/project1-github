@@ -129,7 +129,7 @@ output application/json
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-"This is system Api" ++ " created from Raml"++"workinfg on cicd"]]></ee:set-payload>
+"workinfg on cicd"]]></ee:set-payload>
             </ee:message>
         </ee:transform>
     </flow>
