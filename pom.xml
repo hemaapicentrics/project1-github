@@ -33,7 +33,7 @@
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.4.0</muleVersion>
-				      <username>hemalatha-feb16</username>
+				      <username>hema-sep18</username>
 				      <password>Hemala03</password>
 				      <applicationName>cicd2144</applicationName>
 				      <environment>Sandbox</environment>
