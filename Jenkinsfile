@@ -1,4 +1,4 @@
-pipeline {
+  pipeline {
      agent any
          stages {
              stage('Build') {
@@ -15,10 +15,10 @@ pipeline {
                  }
                  stage('Deploy to Cloudhub') { 
                    environment {
-                                 ANYPOINT_CREDENTIALS = credentials('anypointplatform')
+                                 ANYPOINT_CREDENTIALS = credentials('platform.credentials')
                                }
                    steps {
-                            bat 'mvn package deploy -DmuleDeploy -DmuleVersion=4.4.0 -Dusername=hema-sep18 -Dpassword=Hemala03 -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
+                            bat 'mvn deploy -DmuleDeploy -DmuleVersion=4.4.0 -Dusername=hema-sep18 -Dpassword=Hemala03 -DworkerType=Micro -Dworkers=1 -Dregion=us-west-2'
                          }
                     }
          }
