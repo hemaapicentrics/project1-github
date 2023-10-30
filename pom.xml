@@ -35,7 +35,7 @@
 				      <muleVersion>4.4.0</muleVersion>
 				      <username>hema-sep18</username>
 				      <password>Hemala03</password>
-				      <applicationName>cicd2144</applicationName>
+				      <applicationName>vinay-training</applicationName>
 				      <environment>Sandbox</environment>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
